@@ -1,0 +1,10 @@
+{
+  "dataset_name": "gsm8k",
+  "split": "test",
+  "sample_size": 300,
+  "sampling_seed": 42,
+  "sampling_method": "random_without_replacement",
+  "dataset_revision": "main",
+  "download_date": "2026-07-03",
+  "note": "GSM8K数据集无原生qid，question_id为程序自定义编号"
+}
