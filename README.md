@@ -40,6 +40,7 @@ nlp_cot_experiment/
 └── README.md
 ```
 ## 运行顺序
+- 如果要更改tokens限制长度上限，重新输出结果，可把results/raw_outputs.jsonl与results/raw_outputs.csv删除重新运行run_inference.py
 - 1.运行sample_dataset.py，自动下载GSM8K数据集到D:\AI_Cache\huggingface\datasets，在项目data/生成300道抽样题目
 - 2.运行run_inference.py，加载Qwen2.5-3B-Instruct模型，遍历300题×4种prompt=1200次推理，保存结果results/raw_outputs.jsonl，
 - 3.运行evaluate.py，读取raw_outputs.jsonl，产出results/metrics_summary.csv（4组P0~P3汇总指标（准确率、格式率、平均 token、平均耗时）），results/raw_outputs.csv（推理记录表格）
