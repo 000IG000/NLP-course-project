@@ -6,9 +6,6 @@ __pycache__/
 *.pyd
 # HuggingFace本地模型缓存
 D:/AI_Cache/
-# 大体积推理结果（可选：不想上传csv/图片就放开下面注释）
-# results/*.csv
-# results/figures/*.png
 # 系统缓存
 .DS_Store
 *.log
