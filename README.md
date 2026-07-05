@@ -23,10 +23,10 @@ nlp_cot_experiment/
 │   ├── gsm8k_selected_questions.jsonl
 │   └── sampling_metadata.json
 ├── results/               # 全部实验输出结果
-│   ├── raw_outputs.jsonl     # 原始逐条推理记录
+│   ├── raw_outputs.jsonl       # 原始逐条推理记录
 │   ├── raw_outputs.csv
-│   ├── metrics_summary.csv   # 各组指标汇总表
-│   ├── significance_tests.csv# 统计检验p值结果
+│   ├── metrics_summary.csv     # 各组指标汇总表
+│   ├── significance_tests.csv  # 统计检验p值结果
 │   └── figures/           # 存放3个图表
 ├── tests/                 # 单元测试（可不运行）
 ├── prompts.py             # P0-P3四组提示词模板
