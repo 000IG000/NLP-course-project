@@ -1,0 +1,8 @@
+﻿test,comparison,statistic,p_value,significant,significant_before_correction,p_value_holm,significant_after_holm
+Cochran's Q (Overall),All 4 groups,52.8713,0.0,True,,,
+McNemar (Pairwise),P0 vs P1,0.6545,0.418492,,False,0.418492,False
+McNemar (Pairwise),P0 vs P2,19.122,1.2e-05,,True,4.9e-05,True
+McNemar (Pairwise),P0 vs P3,34.0278,0.0,,True,0.0,True
+McNemar (Pairwise),P1 vs P2,12.9706,0.000316,,True,0.000949,True
+McNemar (Pairwise),P1 vs P3,27.0345,0.0,,True,1e-06,True
+McNemar (Pairwise),P2 vs P3,5.1429,0.023342,,True,0.046684,True

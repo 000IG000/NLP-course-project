@@ -1,0 +1,5 @@
+﻿prompt_type,total_count,normalized_correct,normalized_accuracy,strict_format_rate,strict_accuracy,avg_output_tokens,avg_inference_time
+P0,300,36,0.12,0.7067,0.1067,43.6,2.585
+P1,300,29,0.0967,0.0533,0.04,336.7,20.625
+P2,300,7,0.0233,0.01,0.01,354.6,21.805
+P3,300,0,0.0,0.0,0.0,352.7,21.688
